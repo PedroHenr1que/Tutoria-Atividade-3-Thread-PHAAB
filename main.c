@@ -15,7 +15,6 @@ void *average(void *amount);
 int main(void) {
 
         pthread_t threads[QTD_THREADS];
-        int retCreation[QTD_THREADS];
         int amountValues;
         
         printf("Numbers amount: ");
